@@ -1,0 +1,414 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+  body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Crimson Text', serif !important;
+    
+  }
+  a{
+    text-decoration: none ;
+    color: #000;
+  }
+
+  p{
+    color: gray !important;
+  }
+
+  .fix_nav{
+  
+      overflow: hidden;
+    
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+     
+   
+  }
+
+  .nav-item{
+    margin: 6px 10px;
+    font-size: 22px;
+    
+  }
+
+  .nav-link{
+    color: #000 !important;
+  }
+
+  .nav-link:hover{
+    color: #dba08d !important;
+  }
+
+
+  .active{
+    color: #dba08d !important;
+  }
+
+  .topnav{
+    background-color: #000;
+    padding: 5px 10px;
+  }
+
+  .topnav i{
+    color: #eacabf;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  /*hero section*/
+  
+  .carousel_caption {
+    background-color: #000;
+    opacity: 0.8;
+    position: absolute;
+    padding: 20px;
+    top: 1.25rem;
+    bottom: 1.25rem;
+    float: left;
+    
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    height: auto;
+    width: 400px;
+    color: #fff !important;
+
+    text-align: center;
+}
+.carousel_caption h1{
+    color: #fff !important;
+    font-size: 40px;
+}
+.carousel_caption p{
+    font-size: 20px;
+    color: #fff !important;
+}
+
+.carousel_caption button{
+    padding: 5px 20px;
+    
+    border: 1px solid #b09991;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.carousel_caption a{
+    color: #c7a499;
+    text-decoration: none;
+    font: 1em ;
+}
+.carousel_caption a:hover{
+    color: #000;
+    text-decoration: none;
+    font: 1em ;
+}
+
+.carousel_caption button:hover{
+    background-color: #dba08d;
+    
+    border: 1px solid #dba08d;
+    text-decoration: none;
+    font: 1em ;
+}
+.hero_img{
+    width: 100%;
+    
+}
+
+/*services*/
+.card-img {
+    width: 80px !important;
+    height: 80px;
+
+    margin: 0px auto;
+}
+
+/*about*/
+
+.about{
+  background-color: #eeeeee;
+}
+
+.about_card{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.about_card i{
+  font-size: 22px;
+  color: #c7a499;
+  padding: 12px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #c7a499;
+  border-radius: 10%;
+}
+
+.rank{
+  
+}
+.heading{
+ text-align: center;
+ 
+}
+
+.title{
+  color: #000;
+  font-weight: bold;
+  text-transform: capitalize;
+
+}
+
+.title:hover{
+  color: #dba08d;
+}
+
+
+.underline{
+  border: 3px solid #000;
+  border-radius: 20px;
+  width: 100px;
+  margin: 5px auto !important;
+  text-align: center;
+}
+
+.underline_heading{
+  border: 2px solid #000 !important;
+ 
+  border-radius: 20px;
+ width: 100px; 
+}
+
+.img_banner{
+  background-image: url("img/photo-1492171983775-a51717616c0d.jfif");
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+  color: #fff;
+ }
+
+
+ .img_banner i{
+  padding: 10px 12px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  bottom: -20px;
+  color: #fff;
+  margin: 0px auto;
+  
+ }
+
+ .about_vdo{
+  width: 10%;
+ }
+
+ .box p{
+  color: white !important;
+ }
+
+ .box_black{
+  background-color: #000;
+  color: #fff;
+ }
+
+ .box_black:hover{
+
+ 
+  animation-name: box_animation;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+ 
+ }
+@keyframes box_animation {
+  from{
+
+    transform: scale(1);
+  }
+  to{
+  
+  transform: scale(1.08);
+  }
+}
+ 
+ .box_gray{
+  background-color: #3f3f3f;
+  color: #fff;
+ }
+
+ .box_gray:hover{
+  
+  animation-name: box_animation;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ 
+ }
+
+ 
+ .box_lightgray{
+  background-color: #959595;
+  color: #fff;
+ }
+
+ .box_lightgray:hover{
+ 
+
+  animation-name: box_animation;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ 
+ }
+
+
+ /*project*/
+.products{
+  position: relative;
+}
+ .hidden_content{ 
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ color: #fff;
+ background-color: rgba(68,54,49,.7);
+ transition: all .3s cubic-bezier(.39,.575,.565,1)0s;
+display: none;
+padding: 20px 10px ;
+
+
+ }
+
+ .hidden_content p{
+  color: #fff !important;
+ }
+
+ .hidden_content .icons{
+  width: 100px;
+  margin: 10px auto;
+ }
+
+ .icons i{
+  padding: 10px;
+  margin: 0px 10px;
+  border: 2px solid #dba08d;
+  color: #fff;
+  border-radius: 50%;
+ }
+
+/*blog*/
+.blog_img:hover{
+  cursor: pointer;
+  transition: all !important;
+  transform: rotateX('360deg');
+}
+
+
+.bottom_text a{
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.bottom_text a:hover{
+  color: #dba08d !important;
+}
+
+.bottom-blog{
+  text-align: center;
+}
+
+.blog-button{
+  background-color: #dba08d;
+  color: #000;
+  padding: 10px 20px;
+  margin: 0px auto;
+  width: 200px;
+  border: none;
+  font-weight: bold;
+}
+
+.blog-button:hover{
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/*contact*/
+.contact{
+  background-image: url("https://source.unsplash.com/1400x500/?contact");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact_overlay{
+  background-color: rgba(0,0,0,.6);
+}
+
+
+
+.contact_overlay label{
+  color: #fff !important;
+}
+
+
+/*team*/
+.card-none{
+  display: none;
+  background-color: rgba(68,54,49,.5);
+  color: #fff;
+  /* width: 300px;
+  height: 410px; */
+  margin-top: -116px;
+ padding: 150px;
+ width: 100%;
+  
+}
+
+
+
+.card-info h4{
+  color: #fff;
+}
+
+.card-info p{
+  color: #fff !important;
+}
+
+.card-info i{
+  color: #fff;
+}
+
+
+/*footer*/
+footer{
+  background-color: #000;
+}
+
+footer h4{
+  color:#fff !important;
+}
+footer h5{
+  color:#fff !important;
+}
+
+.arrow-up{
+  position: sticky;
+  bottom: 30;
+  left: 60px;
+  
+}
+
+.arrow-up i{
+  border: 1px solid #dba08d;
+  padding: 10px;
+  border-radius: 10px;
+  
+  
+}
